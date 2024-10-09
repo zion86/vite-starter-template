@@ -1,0 +1,16 @@
+{
+  "name": "vite-starter-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --open",
+    "build": "vite build",
+    "preview": "vite preview --host --open"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4",
+    "vite": "^5.4.8",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
