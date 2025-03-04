@@ -1,0 +1,51 @@
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+  max-width: 100%;
+
+  @media (min-width: $bp-sm) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+
+  @media (min-width: $bp-md) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+
+  @media (min-width: $bp-lg) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+
+  @media (min-width: $bp-xl) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+  max-width: $w-container-mob;
+
+  @media (min-width: $bp-sm) {
+    max-width: $w-container-sm;
+  }
+
+  @media (min-width: $bp-md) {
+    max-width: $w-container-md;
+  }
+
+  @media (min-width: $bp-lg) {
+    max-width: $w-container-lg;
+  }
+
+  @media (min-width: $bp-xl) {
+    max-width: $w-container-xl;
+  }
+}
