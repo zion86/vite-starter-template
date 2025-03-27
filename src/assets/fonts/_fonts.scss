@@ -3,7 +3,8 @@
   font-family: 'Onest';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/onest-v6-cyrillic_latin-regular.woff2') format('woff2');
+  src: local('Onest'),
+    url('./assets/fonts/onest-v6-cyrillic_latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -11,5 +12,6 @@
   font-family: 'Onest';
   font-style: normal;
   font-weight: 700;
-  src: url('/assets/fonts/onest-v6-cyrillic_latin-700.woff2') format('woff2');
+  src: local('Onest'),
+    url('./assets/fonts/onest-v6-cyrillic_latin-700.woff2') format('woff2');
 }

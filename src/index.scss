@@ -1,21 +1,22 @@
-// SCSS VARIABLES
-@import "assets/fonts/_fonts";
-@import "scss/_reset-css";
-@import "scss/_variables";
+// FONTS
+@forward "./assets/fonts/fonts";
 
-// SCSS TOOLS
-// @use "scss/pixel-perfect";
-// @use "scss/tools/grid";
-// @use "scss/helpers/sticky-footer";
+// TOOLS
+@forward "./styles/tools/reset-css";
+// @forward "./styles/tools/grid";
 
-// SCSS COMPONENTS
-@import "components/commons/page/_page";
-@import "components/commons/container/_container";
-@import "components/commons/page-content/_page-content";
-@import "components/commons/main-nav/_main-nav";
-@import "components/commons/page-header/_page-header";
-@import "components/commons/page-footer/_page-footer";
-@import "components/extra/nav/_nav";
-@import "components/extra/burger-menu/_burger-menu";
-@import "components/extra/social-links/_social-links";
-@import "components/extra/btn/_btn";
+// HELPERS
+// @forward "./styles/helpers/sticky-footer";
+// @forward "./styles/helpers/pixel-perfect";
+
+// COMPONENTS
+@forward "./components/commons/page/page";
+@forward "./components/commons/container/container";
+@forward "./components/commons/page-content/page-content";
+@forward "./components/commons/main-nav/main-nav";
+@forward "./components/commons/page-header/page-header";
+@forward "./components/commons/page-footer/page-footer";
+@forward "./components/extra/nav/nav";
+@forward "./components/extra/burger-menu/burger-menu";
+@forward "./components/extra/social-links/social-links";
+@forward "./components/extra/btn/btn";

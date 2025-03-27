@@ -1,9 +1,9 @@
-@import "_btn";
-@import "_link";
-@import "_title";
-@import "_input";
-@import "_border";
-@import "_page";
+@forward "./colors/btn";
+@forward "./colors/link";
+@forward "./colors/title";
+@forward "./colors/input";
+@forward "./colors/border";
+@forward "./colors/page";
 
 :root {
   --white-primary: #FFF;
