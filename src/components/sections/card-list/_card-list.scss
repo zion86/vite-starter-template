@@ -1,0 +1,19 @@
+@use '../../../styles/variables' as *;
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+
+  &__item {
+    background-color: limegreen;
+  }
+
+  @media (min-width: $bp-sm) {}
+
+  @media (min-width: $bp-md) {}
+
+  @media (min-width: $bp-lg) {}
+
+  @media (min-width: $bp-xl) {}
+}

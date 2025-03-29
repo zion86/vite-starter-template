@@ -13,8 +13,7 @@ body::before {
 
   content: "";
   position: absolute;
-  // inset: 0 $gap 0 0;
-  inset: 0;
+  inset: 0 $gap 0 0;
   background-image: repeating-linear-gradient(to right, transparent 0 $gap, rgba(240, 140, 140, 0.5) $gap calc(100% / var(--columns)));
   z-index: 1;
 }
@@ -23,31 +22,27 @@ body::before {
 @media (min-width: $bp-sm) {
   body::before {
     --columns: 6;
-
-    max-width: $w-container-sm;
+    max-width: calc(#{$w-container-sm} - #{$gap});
   }
 }
 
 @media (min-width: $bp-md) {
   body::before {
     --columns: 9;
-
-    max-width: $w-container-md;
+    max-width: calc(#{$w-container-md} - #{$gap});
   }
 }
 
 @media (min-width: $bp-lg) {
   body::before {
     --columns: 12;
-
-    max-width: $w-container-lg;
+    max-width: calc(#{$w-container-lg} - #{$gap});
   }
 }
 
 @media (min-width: $bp-xl) {
   body::before {
     --columns: 12;
-
-    max-width: $w-container-xl;
+    max-width: calc(#{$w-container-xl} - #{$gap});
   }
 }
