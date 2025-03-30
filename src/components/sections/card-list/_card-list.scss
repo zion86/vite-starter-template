@@ -6,14 +6,30 @@
   gap: $gap;
 
   &__item {
+    flex: 1 1 100%;
     background-color: limegreen;
   }
 
-  @media (min-width: $bp-sm) {}
+  @media (min-width: $bp-sm) {
+    flex-direction: row;
+    flex-wrap: wrap;
 
-  @media (min-width: $bp-md) {}
+    &__item {
+      flex: 1 1 calc(50% - #{$gap});
+    }
+  }
 
-  @media (min-width: $bp-lg) {}
+  @media (min-width: $bp-md) {
+    &__item {
+      flex: 1 1 calc(50% - #{$gap});
+    }
+  }
+
+  @media (min-width: $bp-lg) {
+    &__item {
+      flex: 1 1 calc(33% - #{$gap});
+    }
+  }
 
   @media (min-width: $bp-xl) {}
 }

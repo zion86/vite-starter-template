@@ -28,7 +28,7 @@ body::before {
 
 @media (min-width: $bp-md) {
   body::before {
-    --columns: 9;
+    --columns: 8;
     max-width: calc(#{$w-container-md} - #{$gap});
   }
 }
