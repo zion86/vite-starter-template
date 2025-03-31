@@ -1,17 +1,15 @@
 @font-face {
-  font-display: swap;
   font-family: 'Onest';
-  font-style: normal;
+  src: local('Onest'), url('./assets/fonts/onest-v6-cyrillic_latin-regular.woff2') format('woff2');
   font-weight: 400;
-  src: local('Onest'),
-    url('./assets/fonts/onest-v6-cyrillic_latin-regular.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-display: swap;
   font-family: 'Onest';
-  font-style: normal;
+  src: local('Onest'), url('./assets/fonts/onest-v6-cyrillic_latin-700.woff2') format('woff2');
   font-weight: 700;
-  src: local('Onest'),
-    url('./assets/fonts/onest-v6-cyrillic_latin-700.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
 }

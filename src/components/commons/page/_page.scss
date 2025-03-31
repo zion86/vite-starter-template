@@ -2,8 +2,8 @@
 
 .page {
   font-family: $ff-primary;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: $fsz-base;
+  line-height: $flh-m;
   color: $c-page-text-primary;
   background-color: $c-page-bg-primary;
 }

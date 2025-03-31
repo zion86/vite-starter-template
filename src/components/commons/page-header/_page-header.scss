@@ -4,6 +4,10 @@
   background-color: aqua;
 }
 
-.page-header h2 {
+.page-header__wrap {}
+
+.page-header__title {
   font-family: $ff-primary;
 }
+
+.page-header__logo-link {}

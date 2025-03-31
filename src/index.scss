@@ -1,23 +1,23 @@
 // FONTS
-@forward "./assets/fonts/fonts";
+@forward "assets/fonts/fonts";
 
 // TOOLS
-@forward "./styles/tools/reset-css";
-@forward "./styles/tools/grid";
+@forward "styles/tools/reset-css";
+// @forward "styles/tools/grid";
 
 // HELPERS
-// @forward "./styles/helpers/sticky-footer";
-// @forward "./styles/helpers/pixel-perfect";
+// @forward "styles/helpers/sticky-footer";
+// @forward "styles/helpers/pixel-perfect";
 
 // COMPONENTS
-@forward "./components/commons/page/page";
-@forward "./components/commons/container/container";
-@forward "./components/commons/page-content/page-content";
-@forward "./components/commons/main-nav/main-nav";
-@forward "./components/commons/page-header/page-header";
-@forward "./components/commons/page-footer/page-footer";
-@forward "./components/extra/nav/nav";
-@forward "./components/extra/burger-menu/burger-menu";
-@forward "./components/extra/social-links/social-links";
-@forward "./components/extra/btn/btn";
-@forward "./components/sections/card-list/card-list";
+@forward "components/commons/page/page";
+@forward "components/commons/container/container";
+@forward "components/commons/page-content/page-content";
+@forward "components/commons/main-nav/main-nav";
+@forward "components/commons/page-header/page-header";
+@forward "components/commons/page-footer/page-footer";
+@forward "components/extra/nav/nav";
+@forward "components/extra/burger-menu/burger-menu";
+@forward "components/extra/social-links/social-links";
+@forward "components/extra/btn/btn";
+@forward "components/sections/card-list/card-list";

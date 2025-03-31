@@ -1,4 +1,38 @@
-@forward './dimensions/border-radius';
-@forward './dimensions/breakpoints';
-@forward './dimensions/container';
-@forward './dimensions/inner-spacing';
+// container sizes
+$w-container-mob: 100%;
+$w-container-sm: 540px;
+$w-container-md: 720px;
+$w-container-lg: 960px;
+$w-container-xl: 1140px;
+
+
+// gap sizes
+$gap: 20px;
+$gap-small: 10px;
+$gap-big: 30px;
+$gap-negative: -20px;
+
+
+// breakpoints sizes
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xl: 1920px;
+
+
+// inner spacing sizes
+$sp-small: 5px;
+$sp-basic: 10px;
+$sp-big: 20px;
+
+$sp-nav-link: $sp-basic $sp-big;
+
+
+// border radius sizes
+$br-basic: 10px;
+$br-big: 15px;
+$br-small: 5px;
+
+$br-border: $br-big;
+$br-btn: $br-basic;
+$br-link: $br-small;
