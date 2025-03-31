@@ -1,7 +1,7 @@
 @use "../../../styles/variables" as *;
 
 .page-header {
-  background-color: aqua;
+  background-color: $c-page-header-bg;
 }
 
 .page-header__wrap {}
